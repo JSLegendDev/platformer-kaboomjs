@@ -1,20 +1,32 @@
-import kaboom from 'kaboom'
+import k from './k'
 
-
-kaboom({
-    width: 500,
-    height: 500,
-})
-
-loadSpriteAtlas('./asset.png', {
-    'player': {
+k.loadSpriteAtlas('./asset.png', {
+    'yellow-platform': {
         x: 0,
-        y: 0,
+        y: 64,
         width: 32,
         height: 32
-    }
+    },
+    'green-platform' : {
+        x: 32,
+        y: 64,
+        width: 32,
+        height: 32
+    }, 
+    'red-platform': {
+        x: 0,
+        y: 96,
+        width: 32,
+        height: 32
+    },
+    'blue-platform' : {
+        x: 32,
+        y: 96,
+        width: 32,
+        height: 32
+    }, 
 })
 
-add([
-    sprite('player')
+k.add([
+    k.sprite('green-platform')
 ])
