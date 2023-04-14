@@ -8,8 +8,8 @@ kaboom({
 
 loadSpriteAtlas('./asset.png', {
     'player': {
-        x: 32,
-        y: 128,
+        x: 0,
+        y: 0,
         width: 32,
         height: 32
     }
