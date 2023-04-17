@@ -2,8 +2,8 @@ import kaboom from 'kaboom'
 
 
 const k = kaboom({
-    width: 500,
-    height: 500,
+    width: 800,
+    height: 600,
     global: false
 })
 

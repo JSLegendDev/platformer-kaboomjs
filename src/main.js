@@ -24,9 +24,16 @@ k.loadSpriteAtlas('./asset.png', {
         y: 96,
         width: 32,
         height: 32
-    }, 
+    },
+    'player': {
+        x: 0,
+        y: 210,
+        width: 128,
+        height: 64
+    } 
 })
 
 k.add([
-    k.sprite('green-platform')
+    k.sprite('player'),
+    k.scale(4)
 ])
